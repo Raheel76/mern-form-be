@@ -6,7 +6,7 @@ exports.validateSignup = [
     .withMessage('Name is required')
     .isLength({ max: 50 })
     .withMessage("Name must be ≤50 charactersName must be "),
-
+    
   check('email')
     .notEmpty()
     .withMessage('Email is required')
